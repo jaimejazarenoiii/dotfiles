@@ -103,6 +103,23 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
+alias gst='git status'
+alias gcom='git commit -m'
+alias gco='git checkout'
+alias gl='git pull'
+alias gpom="git pull origin master"
+alias gp='git push'
+alias gd='git diff'
+alias gds='git diff --staged'
+alias gb='git branch'
+alias gba='git branch -a'
+alias del='git branch -d'
+alias gfa='git fetch -all'
+alias gr='git reset'
+alias gm='git merge'
+alias gffs='git flow feature start'
+alias gfff='git flow feature finish'
+alias gfhs='git flow hotfix start'
+alias gfhf='git flow hotfix finish'
+
 export PATH="$HOME/.rbenv/bin:$PATH"
