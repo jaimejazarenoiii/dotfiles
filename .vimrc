@@ -1,4 +1,4 @@
-" vim-plug (https://github.com/junegunn/vim-plug) settings 
+" vim-plug (https://github.com/junegunn/vim-plug) settings
 " Automatically install vim-plug and run PlugInstall if vim-plug not found
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -36,6 +36,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-rails'
+Plug 'flazz/vim-colorschemes'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/matchit.zip'
@@ -127,9 +128,9 @@ syntax on
 set wildmenu
 set t_Co=256
 set background=dark
-colorscheme dracula
+colorscheme hybrid_material
 let g:dracula_italic = 1
-let g:airline_theme = 'dracula'
+let g:airline_theme = 'hybrid'
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
 

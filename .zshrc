@@ -9,8 +9,8 @@ export LANG=en_US.UTF-8
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-POWERLEVEL9K_MODE='awesome-patched'
-ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_MODE='awesome-fontconfig'
+ZSH_THEME="spaceship"
 
 ZSH_TMUX_AUTOSTART='true'
 
@@ -117,9 +117,12 @@ alias del='git branch -d'
 alias gfa='git fetch -all'
 alias gr='git reset'
 alias gm='git merge'
+alias gs='git stash'
 alias gffs='git flow feature start'
 alias gfff='git flow feature finish'
 alias gfhs='git flow hotfix start'
 alias gfhf='git flow hotfix finish'
+alias gcl='git clean'
 
 export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH=/Applications/MAMP/Library/bin:$PATH
