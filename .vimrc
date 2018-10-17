@@ -44,6 +44,7 @@ Plug 'vim-scripts/nginx.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'wakatime/vim-wakatime'
 Plug 'mileszs/ack.vim'
+Plug 'leafgarland/typescript-vim'
 
 " Initialize plugin system
 call plug#end()
