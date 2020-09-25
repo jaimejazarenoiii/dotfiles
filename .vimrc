@@ -181,7 +181,7 @@ nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
 autocmd VimEnter * NERDTree | wincmd p
-nnoremap <silent> <C-n> :NERDTree<CR>
+nnoremap <silent> <C-n> :NERDTreeToggle<CR>
 
 " Override certain sections of airline
 call airline#parts#define_function('syntaxitem','SyntaxItem')
